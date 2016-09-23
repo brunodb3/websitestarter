@@ -1,0 +1,19 @@
+{
+  "name": "website_starter",
+  "version": "0.0.1",
+  "authors": [
+    "ideware"
+  ],
+  "description": "Template para websites baseado em AngularJS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-ui-router": "^0.3.1"
+  }
+}
