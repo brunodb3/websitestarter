@@ -1,0 +1,8 @@
+// /app/styles/app.scss
+// here we import all the other .scss files into one
+@import "home";
+
+// app-wide styles go here
+html {
+	font-family: 'Roboto', sans-serif;
+}

@@ -7,10 +7,10 @@ Consiste em:
   * [Template Website](https://github.com/brunodb3/websitestarter)
 
 > Este projeto foi desenvolvido Bruno Duarte Brito mantendo em mente o código open-source.
-> Baseado no projeto [BlurAdmin](https://github.com/akveo/blur-admin) pelo usuário ```akveo``` do GitHub.
+> Baseado no projeto [Healthy Gulp Angular](https://github.com/paislee/healthy-gulp-angular) pelo usuário ```paislee``` do GitHub.
 
 ### Versão
-0.0.1
+2.0.0
 
 ### Tecnologia envolvida
 
@@ -39,19 +39,27 @@ Então, prepare a plataforma, baixe os módulos e abra o projeto no navegador:
 
 ```sh
 $ npm install # instala todos os módulos do npm
-$ gulp serve # abre o projeto em modo desenvolvimento no browser (servidor local)
+$ gulp watch-dev # abre o projeto em modo desenvolvimento no browser (servidor local)
 ```
 
-Os arquivos do website estarão na pasta ```src```.
+Os arquivos do website estarão na pasta ```app```.
 
 ### Produção
 
 Para realizar a build final do projeto (versão para produção, minificada), execute o seguinte comando:
 
 ```sh
-$ gulp build # realiza a build final do projeto, na pasta 'release'
+$ gulp # realiza a build final do projeto, na pasta ```dist.prod```
 ```
 
-Os arquivos minificados e prontos para envio ao servidor estarão na pasta ```release```.
+Os arquivos minificados e prontos para envio ao servidor estarão na pasta ```dist.prod```.
+
+Para abrir um servidor local em modo produção, basta executar:
+
+```sh
+$ gulp watch-prod
+```
+
+*Para saber mais sobre o processo de build utilizado, visite [Healthy Gulp Angular](https://github.com/paislee/healthy-gulp-angular), do usuário ```paislee``` do GitHub.*
 
 **Bruno Duarte Brito - 2016**
